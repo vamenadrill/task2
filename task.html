@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pizza-on-Demand</title>
+  <style>
+
+    body{
+        background: url("images.jpeg") no-repeat center/cover fixed ;
+        image-rendering: auto;
+
+    }
+  </style>
+</head>
+<body>
+
+  <p><a href="#">Main</a> <a href="#">Make an Order</a> <a href="#">Contact Us</a></p>
+
+  <h2>Black Goose Bistro | Pizza-on-Demand</h2>
+  <p>Our 12" wood-fired pizza are available for delivery, build your custom pizza and we'll deliver it within an hour.</p>
+
+  <fieldset>
+    <legend><b>Your Information</b></legend>
+    <form>
+      <label>Name</label> <input type="text"><br>
+      <label>Address :</label> <input type="text"><br>
+      <label>Telephone Number :</label> <input type="text"><br>
+      <label>Email :</label> <input type="text"><br>
+      <label>Delivery Instruction :</label><br>
+      <textarea rows="4" cols="50">No more than 400 character long</textarea>
+    </form>
+  </fieldset>
+
+  <h3>Design Your Dream Pizza:</h3>
+  <fieldset>
+    <legend><b>Pizza specs</b></legend>
+
+    <p><b>Crust (Choose one):</b></p>
+    <input type="radio" name="crust"> Classic White<br>
+    <input type="radio" name="crust"> Multigrain<br>
+    <input type="radio" name="crust"> Choose-stuffed crust<br>
+    <input type="radio" name="crust"> Gluten-free<br><br>
+
+    <p><b>Toppings (Choose as many as you want):</b></p>
+    <input type="checkbox"> Red Sauce<br>
+    <input type="checkbox"> White Sauce<br>
+    <input type="checkbox"> Mozzarella Cheese<br>
+    <input type="checkbox"> Pepperoni<br>
+    <input type="checkbox"> Mushrooms<br>
+    <input type="checkbox"> Peppers<br>
+    <input type="checkbox"> Anchovies<br><br>
+
+    <p><b>Number</b></p>
+    <label>How many pizzas:</label>
+    <input type="number" min="0">
+  </fieldset>
+
+  <br>
+  <button type="submit">Bring me a pizza!</button>
+  <button type="reset">Reset</button>
+
+</body>
+</html>
